@@ -76,10 +76,6 @@ hr {
   padding: 16px !important;
 }*/
 
-.temp {
-	display: none;
-}
-
 body {
 	font-family: "Montserrat", sans-serif;
 	font-optical-sizing: auto;
@@ -222,4 +218,9 @@ footer {
 	& > ul {
 		opacity: 0.5;
 	}
+}
+
+/*keep in the end*/
+.temp {
+	display: none;
 }
