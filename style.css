@@ -1,0 +1,225 @@
+/* reset default CSS */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  border-width: 0;
+}
+
+
+/* Google font
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+ */
+
+
+/* undo mailerjet CSS */
+/*#mlb2-22470824.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody {
+	padding: 0 !important;
+}
+
+#mlb2-22470824.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent, #mlb2-22470824.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
+	margin: 0 !important;
+}
+
+.ml-form-embedSubmit {
+	margin: 0 !important;
+}
+
+.ml-embedded {
+	padding-top: 16px;
+}
+
+.ml-form-formContent, .ml-form-embedSubmit {
+	padding-bottom: 8px;
+}
+
+.ml-form-fieldRow input {
+	line-height: 24px !important;
+  padding: 16px !important;
+}*/
+
+.temp {
+	display: none;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	color: #010102;
+	background-color: #ffffff;
+}
+
+.medium {
+	font-weight: 500;
+}
+
+.small {
+	font-size: 10px;
+	line-height: 16px;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top : 16px;
+	gap: 32px;
+	& > img:first-child {
+		width: 86.28px;
+		height: 48px;
+	}
+	& > img:nth-child(2) {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+#lw-banner {
+	width: 100%;
+}
+
+.flag {
+	width: 32px;
+	height: 32px;
+}
+
+li {
+	display: inline-block;
+	padding: 12px;
+}
+
+h1 {
+	font-size: 24px;
+	text-align: center;
+	font-weight: 600;
+	line-height: 24px;
+	color: #002855;
+	padding-bottom: 8px;
+}
+
+p {
+	font-weight: 300;
+	line-height: 24px;
+}
+
+a {
+	color: #003DA5;
+	&:visited {
+		color: #003DA5;
+	}
+	&:hover {
+		color: #002855;
+		text-decoration: none;
+	}
+}
+
+main {
+	margin: 0 auto;
+	max-width: 640px;
+	padding: 16px 16px;
+}
+
+section {
+	padding: 24px 0;
+}
+
+section, footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	& > div {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+#lw-section > div {
+	padding-top: 32px;
+	gap: 8px;
+	& > img {
+		padding-bottom: 8px;
+	}
+}
+
+.btn-secondary {
+	color: #010102;
+	text-decoration: none;
+	background-color: #F2F2F2;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #010102;
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+	border-radius: 8px;
+	width: 100%;
+	height: 52px;
+	display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-weight: 500;
+  gap: 16px;
+	& > img {
+	width: 32px;
+	height: 32px;
+	}
+	&:hover {
+		border-width: 2px;
+		color: #010102;
+	}
+	&:visited {
+		color: #010102;
+	}
+}
+
+footer {
+	background-color: #333E48;
+	color: #F2F2F2;
+	padding: 32px;
+	gap: 24px;
+	& > ul {
+		opacity: 0.5;
+	}
+}
